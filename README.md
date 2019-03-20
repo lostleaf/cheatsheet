@@ -11,7 +11,11 @@ Quantitative Finance and AI Learning Resources
 - Machine Learning for Trading ([Course Website](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course), [Video@Udacity](https://www.udacity.com/course/machine-learning-for-trading--ud501))
 
 ## Deep Learning
+### Website
 - [PyTorch](https://pytorch.org/)
 - [fast.ai](https://www.fast.ai/)
 - [practicalAI](https://github.com/GokuMohandas/practicalAI) ([CN](https://github.com/MLEveryday/practicalAI-cn))
 - [PyTorch: Zero to GANs](https://medium.com/jovian-io/pytorch-basics-tensors-and-gradients-eb2f6e8a6eee)
+- [Dive into Deep Learning](http://d2l.ai)
+### MOOC
+- [Berkeley STAT157 Introduction to Deep Learning](https://courses.d2l.ai/berkeley-stat-157/index.html)
