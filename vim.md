@@ -1,61 +1,84 @@
 *Mostly copied from [Derek Wyatt's Tutorial](http://derekwyatt.org/vim/tutorials/index.html)*
 
-**Basic movement** - Character-wise movements with the home keys: `h`, `j`, `k` and `l`.
+**Basic movement** - Character-wise movements: `h`, `j`, `k` and `l`
 
-**Line terminus** - Beginning of line: `^`; First non-blank: `0`; End of line: `$`.
+**Line terminus** 
+- Beginning of line: `^`;
+- First non-blank: `0`
+- End of line: `$`
 
-**word** - A sequence of characters in the 'iskeyword' class(`()[],-` and whitespace etc).
+**word** - A sequence of characters in the 'iskeyword' class(`()[],-` and whitespace etc)
 
-**WORD** - A sequence of characters separated by whitespace.
+**WORD** - A sequence of characters separated by whitespace
 
-**Forward word movement** - Move to the beginning(end) of next word: `w`(`e`) and WORD: `W`(`E`).
+**Forward word movement** - Move to the beginning(end) of next word: `w`(`e`), and WORD: `W`(`E`)
 
-**Backward word movement** - Move backward to the beginning(end) of pervious word: `b`(`ge`) and WORD: `B`(`gE`).
+**Backward word movement** - Move backward to the beginning(end) of pervious word: `b`(`ge`), and WORD: `B`(`gE`)
 
-**Move to character** - Move forward(backward) to *{char}*: `f`(`F`)*{char}*, and `t`(`T`) to the character just before(after) *{char}*; `;` to repeat and `,` to repeat backwards.
+**Move to character** 
+- Move forward to *{char}*: `f*{char}*`, and `F` backward
+- Move forward to the character just before *{char}*: `t*{char}*`, and `T` backward after
+- `;` to repeat and `,` to repeat backwards
 
-**Paging** - Full page: `CTRL-f` and `CTRL-b`. Half page: `CTRL-u` and `CTRL-d`.
+**Paging** 
+- Full page forward and backward: `CTRL-f` and `CTRL-b`
+- Half page forward and backward: `CTRL-u` and `CTRL-d`
 
-**Scroll** - One line: `CTRL-y` and `CTRL-e`.
+**Scroll** - Scroll one line: `CTRL-y` and `CTRL-e`
 
-**Cursor jumping** - Head, middle and last line of a screen: `H`, `M` and `L`.
+**Cursor jumping** 
+- Head, middle and last line of a screen: `H`, `M` and `L`
+- Top and Bottom: `gg` and `G`
 
-**Top and Bottom** - `gg` and `G`.
+**Jumping to a particular line** - `(number)G` or `:(number)`
 
-**Jumping to a particular line** - `(number)G` or `:(number)`.
+**Seach current word** - `*` and `#`, or `g*` and `g#` with no word bounds(E.g. 'app' in 'apple')
 
-**Seach current word** - `*` and `#`, or `g*` and `g#` with no word bounds(eg. 'app' in 'apple').
+**Regular expression searching** - `/` and `?`. Repeat next and pervious: `n` and `N`
 
-**Regular expression searching** - `/` and `?`. Repeat next and pervious: `n` and `N`.
+**Start of Function or Class Jumping** - Beginning of previous* and *next* functions or classes: `[[` and `]]`
 
-**Start of Function or Class Jumping** - Beginning of *previous* and *next* functions or classes: `[[` and `]]`
+**End of Function or Class Jumping** - *Forwards* and *backwords* to the end of a function or class: `][` and `[]`
 
-**End of Function or Class Jumping** - *Forwards* and *backwords* to the end of a function or class: `][` and `[]`.
+**Jumping to Matching Braces** - `%`
 
-**Jumping to Matching Braces** - `%`.
+**Marks**
+- Set mark *{char}* at current cursor location: `m*{char}*`
+- Jump to line of mark *{char}*: `'*{char}*` (first non-blank character in line)
+- Jump to position of mark *{char}*: <code>\`*{char}*</code> (line and column)
+- List all marks: `:marks`
 
-**Marks** - Basic mark functionality and how it works with `m`, `'` and <code>\`</code>.
+**Insert** - Insert before the current character: `i`. Insert at the beginning of the line: `I`(equals to `^i`)
 
-**Insert** - `i` and `I` can bring you into the insert mode. Insert **before** the current character by hitting `i`. Insert at the beginning of the line by hitting `I`, which equals to `^i`.
+**Append** - Insert **after** the current character: `a`. Insert at the end of the line: `A`(equals to `$a`)
 
-**Insert with a New Line** - Use `o`(`O`) to insert with a **new line** after(before) the current.
+**Insert a New Line** - Insert a new line after the current: `o`, and `O` before
 
-**Insert with Append** - Insert **after** the current character by hitting `a`. Insert at the end of the line by hitting `A`, which equals to `$a`.
+**Replacing** 
+- Replace the character under cursor: `r`
+- Switch to replace mode: `R`
+- Change things: `c + <text object>` or `c + <motion>`. 
+- Change the current whole line: `cc` (equals to `^c$`)
+- Change from the current character to the end of the line: `C` (equals to `c$`)
 
-**Replacing Characters** - Replace single character under cursor by hitting `r`. Switch to **replace mode** by hitting `R`.
+**Deleting** 
+- Delete a single character under the cursor: `x`, `X` before the cursor
+- Delete things: `d + <text object>` or `d + <motion>`
+- Delete the current whole line: `dd` 
+- Delete from the current character to the end of the line: `D`
 
-**Changing Things** - Change things by `c + <text object>` or `c + <motion>`. `cc` to change the whole line and `C` change from the current character to the end of the line, which equals to `^c$` and `c$`.
+**Repeat** - Repeat the last command: `.`
 
-**Deleting Characters** - Delete a single character under the cursor with `x` and before the cursor with `X`.
+**Yanking(copying)** 
+- Copy things: `y + <text object>`
+- Copy the current whole line: `yy`
 
-**Deleting Things** - Delete things with `d + <text object>` or `d + <motion>`. Delete a single line with `dd` and delete to the end of the line with `D`.
+**Pasting** - Paste after the cursor `p`, and `P` before
 
-**Repeat** - Repeat the last command by hitting `.`.
+**Joining** - Join lines: `J`, `gJ` without extra spaces
 
-**Yanking** - Yanking means "copying". Yank(copy) with `y + <text object>`. Yank the whole line with `yy`.
-
-**Putting** - Putting means "pasting". Once you've yanked, you can put with the `p` (put after) or `P` (put before).
-
-**Joining** - Join lines with the `J`. But if you don't want the extra space, you need to use `gJ`.
-
-**Visual Mode** - Use the `v` key for character-wise visual selection, `V` for line-wise selection and `ctrl-v` for block-mode selection. Use `gv` to help you re-select an area you just selected.
+**Visual Selection** 
+- Character-wise visual selection: `v` 
+- Line-wise selection: `V` 
+- Block-mode selection `ctrl-v`
+- Re-select an area just selected: `gv`
