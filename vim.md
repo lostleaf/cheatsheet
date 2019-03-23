@@ -1,14 +1,18 @@
 *Mostly copied from [Derek Wyatt's Tutorial](http://derekwyatt.org/vim/tutorials/index.html)*
 
-**Basics** - Character-wise movements with the home keys: `h`, `j`, `k` and `l`.
+**Basic movement** - Character-wise movements with the home keys: `h`, `j`, `k` and `l`.
 
-**Line terminus** - Beginning of line: `^` or `0`(non-blank). End of line: `$`.
+**Line terminus** - Beginning of line: `^`; First non-blank: `0`; End of line: `$`.
 
-**Forward word movement** - word and WORD: `w` and `W`, `e` and `E`.
+**word** - A sequence of characters in the 'iskeyword' class(`()[],-` and whitespace etc).
 
-**Backward word movement** - word and WORD: `b` and `B`, `ge` and `gE`.
+**WORD** - A sequence of characters separated by whitespace.
 
-**Move to character** - `f`, `F`, `t`, `T`
+**Forward word movement** - Move to the beginning(end) of next word: `w`(`e`) and WORD: `W`(`E`).
+
+**Backward word movement** - Move backward to the beginning(end) of pervious word: `b`(`ge`) and WORD: `B`(`gE`).
+
+**Move to character** - Move forward(backward) to *{char}*: `f`(`F`)*{char}*, and `t`(`T`) to the character just before(after) *{char}*; `;` to repeat and `,` to repeat backwards.
 
 **Paging** - Full page: `CTRL-f` and `CTRL-b`. Half page: `CTRL-u` and `CTRL-d`.
 
@@ -20,15 +24,15 @@
 
 **Jumping to a particular line** - `(number)G` or `:(number)`.
 
-**Seach current word** - `*` and `#`, or `g*` and `g#`(no word bounds).
+**Seach current word** - `*` and `#`, or `g*` and `g#` with no word bounds(eg. 'app' in 'apple').
 
-**Regular expression searching** - `/` and `?`. Next and pervious: `n` and `N`.
+**Regular expression searching** - `/` and `?`. Repeat next and pervious: `n` and `N`.
 
 **Start of Function or Class Jumping** - Beginning of *previous* and *next* functions or classes: `[[` and `]]`
 
 **End of Function or Class Jumping** - *Forwards* and *backwords* to the end of a function or class: `][` and `[]`.
 
-**Jumping to Matching Braces** - The fantastic `%` characters.
+**Jumping to Matching Braces** - `%`.
 
 **Marks** - Basic mark functionality and how it works with `m`, `'` and <code>\`</code>.
 
