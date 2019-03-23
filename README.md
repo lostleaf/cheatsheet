@@ -1,4 +1,4 @@
-Quantitative Finance and AI Learning Resources
+Learning Resources
 ========================
 
 ## Finance
