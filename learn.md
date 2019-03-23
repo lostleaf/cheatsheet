@@ -19,3 +19,7 @@ Learning Resources
 - [Dive into Deep Learning](http://d2l.ai)
 ### MOOC
 - [Berkeley STAT157 Introduction to Deep Learning](https://courses.d2l.ai/berkeley-stat-157/index.html)
+
+## Cryptocurrency
+### Book
+- [Mastering Bitcoin 2nd Edition](https://github.com/bitcoinbook/bitcoinbook)
