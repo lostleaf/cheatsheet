@@ -36,9 +36,9 @@
 
 **Regular expression searching** - `/` and `?`. Repeat next and pervious: `n` and `N`
 
-**Start of Function or Class Jumping** - Beginning of previous* and *next* functions or classes: `[[` and `]]`
+**Start of Function or Class Jumping** - Beginning of previous and next functions or classes: `[[` and `]]`
 
-**End of Function or Class Jumping** - *Forwards* and *backwords* to the end of a function or class: `][` and `[]`
+**End of Function or Class Jumping** - Forwards and backwords to the end of a function or class: `][` and `[]`
 
 **Jumping to Matching Braces** - `%`
 
