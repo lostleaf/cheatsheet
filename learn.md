@@ -24,6 +24,7 @@ Learning Resources
 - [Berkeley STAT157 Introduction to Deep Learning](https://courses.d2l.ai/berkeley-stat-157/index.html)
 - [fast.ai](https://www.fast.ai/)
 - [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+- [Advanced Machine Learning Specialization](https://www.coursera.org/specializations/aml)
 
 ## Cryptocurrency
 ### Book
