@@ -16,7 +16,14 @@ Learning Resources
 
 ## Math
 ### MOOC
-- [MIT Probability](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) ([Original](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/))
+- [MIT Probability](https://www.edx.org/course/introduction-probability-science-mitx-6-041x-2) ([Course Website](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/))
+- [MIT Multivariable Calculus](http://open.163.com/special/opencourse/multivariable.html)
+- [MIT Differential Equation](http://open.163.com/special/opencourse/equations.html)
+- [MIT Linear Algebra](http://open.163.com/special/opencourse/daishu.html)
+
+## Programming
+### MOOC
+- [Programming Paradigms](http://open.163.com/special/opencourse/paradigms.html)
 
 ## Deep Learning
 ### Website
