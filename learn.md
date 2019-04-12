@@ -8,8 +8,8 @@ Learning Resources
 - [Financial Markets](https://www.coursera.org/learn/financial-markets-global)
 ([Older version on 163 with Chinese subtitle](http://open.163.com/special/financialmarkets/))
 - [Financial Theory](https://oyc.yale.edu/economics/econ-251)
-([163 with Chinese subtitle](http://open.163.com/special/opencourse/financialtheory.html))
-- [Finance Theory I](https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/)
+([163 with Chinese subtitle](http://open.163.com/special/opencourse/financialtheory.html)) Yale
+- [Finance Theory I](https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/) MIT
 - [Financial Engineering and Risk Management I](https://www.coursera.org/learn/financial-engineering-1) and [Part II](https://www.coursera.org/learn/financial-engineering-2)
 - [Computational Investing](https://www.coursera.org/learn/computational-investing)
 - [Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) ([Course Website](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course))
