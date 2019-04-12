@@ -5,6 +5,7 @@ Learning Resources
 ### Website
 - [QuantStart](www.quantstart.com)
 ### MOOC
+- **[Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) ([Course Website](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course))**
 - [Yale Financial Markets](https://www.coursera.org/learn/financial-markets-global)
 ([Older version on 163 with Chinese subtitle](http://open.163.com/special/financialmarkets/))
 - [Yale Financial Theory](https://oyc.yale.edu/economics/econ-251)
@@ -12,7 +13,10 @@ Learning Resources
 - [MIT Finance Theory I](https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/)
 - [Financial Engineering and Risk Management I](https://www.coursera.org/learn/financial-engineering-1) and [Part II](https://www.coursera.org/learn/financial-engineering-2)
 - [Computational Investing](https://www.coursera.org/learn/computational-investing)
-- [Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) ([Course Website](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course))
+### Book
+- Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Selecting Superior Returns and Controlling Risk
+- Technical Analysis of the Financial Markets: A Comprehensive Guide to Trading Methods and Applications
+- Visual Quantitative Finance: A New Look at Option Pricing, Risk Management, and Structured Securities
 
 ## Math
 ### MOOC
@@ -24,8 +28,14 @@ Learning Resources
 ## Programming
 ### MOOC
 - [Programming Paradigms](http://open.163.com/special/opencourse/paradigms.html)
+### Book
+- **Python for Finance: Analyze Big Financial Data**
+- High Performance Python: Practical Performant Programming for Humans
+- Building Machine Learning Systems with Python
+- Effective Python: 59 Specific Ways to Write Better Python
+- Automate the Boring Stuff with Python: Practical Programming for Total Beginners
 
-## Deep Learning
+## ML/DL
 ### Website
 - [PyTorch](https://pytorch.org/)
 - [practicalAI](https://github.com/GokuMohandas/practicalAI) ([CN](https://github.com/MLEveryday/practicalAI-cn))
@@ -36,6 +46,9 @@ Learning Resources
 - [fast.ai](https://www.fast.ai/)
 - [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 - [Advanced Machine Learning Specialization](https://www.coursera.org/specializations/aml)
+### Book
+- イラストで学ぶ 機械学習(图解机器学习)
+- ISL/ESL
 
 ## Cryptocurrency
 ### Book
