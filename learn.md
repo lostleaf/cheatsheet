@@ -5,14 +5,14 @@ Learning Resources
 ### Website
 - [QuantStart](www.quantstart.com)
 ### MOOC
-- **[Machine Learning for Trading](https://www.udacity.com/course/machine-learning-for-trading--ud501) ([Course Website](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course))**
-- [Yale Financial Markets](https://www.coursera.org/learn/financial-markets-global)
+- [Gatech CS7646 Machine Learning for Trading](https://quantsoftware.gatech.edu/Machine_Learning_for_Trading_Course) ([Udacity](https://www.udacity.com/course/machine-learning-for-trading--ud501))
+- [Yale ECON252 Financial Markets](https://oyc.yale.edu/economics/econ-252)([Coursera](https://www.coursera.org/learn/financial-markets-global))
 ([Older version on 163 with Chinese subtitle](http://open.163.com/special/financialmarkets/))
-- [Yale Financial Theory](https://oyc.yale.edu/economics/econ-251)
+- [Yale ECON251 Financial Theory](https://oyc.yale.edu/economics/econ-251)
 ([163 with Chinese subtitle](http://open.163.com/special/opencourse/financialtheory.html))
-- [MIT Finance Theory I](https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/)
-- [Financial Engineering and Risk Management I](https://www.coursera.org/learn/financial-engineering-1) and [Part II](https://www.coursera.org/learn/financial-engineering-2)
-- [Computational Investing](https://www.coursera.org/learn/computational-investing)
+- [MIT 15.401 Finance Theory I](https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/)
+- [Columbia Financial Engineering and Risk Management I on Coursera](https://www.coursera.org/learn/financial-engineering-1) and [Part II](https://www.coursera.org/learn/financial-engineering-2)
+- [Gatech Computational Investing on Coursera](https://www.coursera.org/learn/computational-investing)
 ### Book
 - Active Portfolio Management: A Quantitative Approach for Producing Superior Returns and Selecting Superior Returns and Controlling Risk
 - Technical Analysis of the Financial Markets: A Comprehensive Guide to Trading Methods and Applications
